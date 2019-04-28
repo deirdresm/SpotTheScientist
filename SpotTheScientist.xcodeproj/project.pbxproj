@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EDB857227618E5003CEA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB856227618E5003CEA00 /* AppDelegate.swift */; };
+		38EDB859227618E5003CEA00 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB858227618E5003CEA00 /* art.scnassets */; };
+		38EDB85B227618E5003CEA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB85A227618E5003CEA00 /* ViewController.swift */; };
+		38EDB85E227618E5003CEA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB85C227618E5003CEA00 /* Main.storyboard */; };
+		38EDB860227618E8003CEA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB85F227618E8003CEA00 /* Assets.xcassets */; };
+		38EDB863227618E8003CEA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB861227618E8003CEA00 /* LaunchScreen.storyboard */; };
+		38EDB86E227618E8003CEA00 /* SpotTheScientistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB86D227618E8003CEA00 /* SpotTheScientistTests.swift */; };
+		38EDB879227618E8003CEA00 /* SpotTheScientistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB878227618E8003CEA00 /* SpotTheScientistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38EDB86A227618E8003CEA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EDB84B227618E5003CEA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EDB852227618E5003CEA00;
+			remoteInfo = SpotTheScientist;
+		};
+		38EDB875227618E8003CEA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EDB84B227618E5003CEA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EDB852227618E5003CEA00;
+			remoteInfo = SpotTheScientist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38EDB853227618E5003CEA00 /* SpotTheScientist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotTheScientist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EDB856227618E5003CEA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38EDB858227618E5003CEA00 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		38EDB85A227618E5003CEA00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38EDB85D227618E5003CEA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EDB85F227618E8003CEA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EDB862227618E8003CEA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EDB864227618E8003CEA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EDB869227618E8003CEA00 /* SpotTheScientistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotTheScientistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EDB86D227618E8003CEA00 /* SpotTheScientistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTheScientistTests.swift; sourceTree = "<group>"; };
+		38EDB86F227618E8003CEA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EDB874227618E8003CEA00 /* SpotTheScientistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotTheScientistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EDB878227618E8003CEA00 /* SpotTheScientistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTheScientistUITests.swift; sourceTree = "<group>"; };
+		38EDB87A227618E8003CEA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EDB850227618E5003CEA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDB866227618E8003CEA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDB871227618E8003CEA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EDB84A227618E5003CEA00 = {
+			isa = PBXGroup;
+			children = (
+				38EDB855227618E5003CEA00 /* SpotTheScientist */,
+				38EDB86C227618E8003CEA00 /* SpotTheScientistTests */,
+				38EDB877227618E8003CEA00 /* SpotTheScientistUITests */,
+				38EDB854227618E5003CEA00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38EDB854227618E5003CEA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EDB853227618E5003CEA00 /* SpotTheScientist.app */,
+				38EDB869227618E8003CEA00 /* SpotTheScientistTests.xctest */,
+				38EDB874227618E8003CEA00 /* SpotTheScientistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EDB855227618E5003CEA00 /* SpotTheScientist */ = {
+			isa = PBXGroup;
+			children = (
+				38EDB856227618E5003CEA00 /* AppDelegate.swift */,
+				38EDB858227618E5003CEA00 /* art.scnassets */,
+				38EDB85A227618E5003CEA00 /* ViewController.swift */,
+				38EDB85C227618E5003CEA00 /* Main.storyboard */,
+				38EDB85F227618E8003CEA00 /* Assets.xcassets */,
+				38EDB861227618E8003CEA00 /* LaunchScreen.storyboard */,
+				38EDB864227618E8003CEA00 /* Info.plist */,
+			);
+			path = SpotTheScientist;
+			sourceTree = "<group>";
+		};
+		38EDB86C227618E8003CEA00 /* SpotTheScientistTests */ = {
+			isa = PBXGroup;
+			children = (
+				38EDB86D227618E8003CEA00 /* SpotTheScientistTests.swift */,
+				38EDB86F227618E8003CEA00 /* Info.plist */,
+			);
+			path = SpotTheScientistTests;
+			sourceTree = "<group>";
+		};
+		38EDB877227618E8003CEA00 /* SpotTheScientistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38EDB878227618E8003CEA00 /* SpotTheScientistUITests.swift */,
+				38EDB87A227618E8003CEA00 /* Info.plist */,
+			);
+			path = SpotTheScientistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EDB852227618E5003CEA00 /* SpotTheScientist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EDB87D227618E8003CEA00 /* Build configuration list for PBXNativeTarget "SpotTheScientist" */;
+			buildPhases = (
+				38EDB84F227618E5003CEA00 /* Sources */,
+				38EDB850227618E5003CEA00 /* Frameworks */,
+				38EDB851227618E5003CEA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotTheScientist;
+			productName = SpotTheScientist;
+			productReference = 38EDB853227618E5003CEA00 /* SpotTheScientist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38EDB868227618E8003CEA00 /* SpotTheScientistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EDB880227618E8003CEA00 /* Build configuration list for PBXNativeTarget "SpotTheScientistTests" */;
+			buildPhases = (
+				38EDB865227618E8003CEA00 /* Sources */,
+				38EDB866227618E8003CEA00 /* Frameworks */,
+				38EDB867227618E8003CEA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EDB86B227618E8003CEA00 /* PBXTargetDependency */,
+			);
+			name = SpotTheScientistTests;
+			productName = SpotTheScientistTests;
+			productReference = 38EDB869227618E8003CEA00 /* SpotTheScientistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38EDB873227618E8003CEA00 /* SpotTheScientistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EDB883227618E8003CEA00 /* Build configuration list for PBXNativeTarget "SpotTheScientistUITests" */;
+			buildPhases = (
+				38EDB870227618E8003CEA00 /* Sources */,
+				38EDB871227618E8003CEA00 /* Frameworks */,
+				38EDB872227618E8003CEA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EDB876227618E8003CEA00 /* PBXTargetDependency */,
+			);
+			name = SpotTheScientistUITests;
+			productName = SpotTheScientistUITests;
+			productReference = 38EDB874227618E8003CEA00 /* SpotTheScientistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EDB84B227618E5003CEA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Deirdre Saoirse Moen";
+				TargetAttributes = {
+					38EDB852227618E5003CEA00 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					38EDB868227618E8003CEA00 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 38EDB852227618E5003CEA00;
+					};
+					38EDB873227618E8003CEA00 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 38EDB852227618E5003CEA00;
+					};
+				};
+			};
+			buildConfigurationList = 38EDB84E227618E5003CEA00 /* Build configuration list for PBXProject "SpotTheScientist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EDB84A227618E5003CEA00;
+			productRefGroup = 38EDB854227618E5003CEA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EDB852227618E5003CEA00 /* SpotTheScientist */,
+				38EDB868227618E8003CEA00 /* SpotTheScientistTests */,
+				38EDB873227618E8003CEA00 /* SpotTheScientistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EDB851227618E5003CEA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EDB859227618E5003CEA00 /* art.scnassets in Resources */,
+				38EDB863227618E8003CEA00 /* LaunchScreen.storyboard in Resources */,
+				38EDB860227618E8003CEA00 /* Assets.xcassets in Resources */,
+				38EDB85E227618E5003CEA00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDB867227618E8003CEA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDB872227618E8003CEA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EDB84F227618E5003CEA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EDB85B227618E5003CEA00 /* ViewController.swift in Sources */,
+				38EDB857227618E5003CEA00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDB865227618E8003CEA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EDB86E227618E8003CEA00 /* SpotTheScientistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDB870227618E8003CEA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EDB879227618E8003CEA00 /* SpotTheScientistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38EDB86B227618E8003CEA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EDB852227618E5003CEA00 /* SpotTheScientist */;
+			targetProxy = 38EDB86A227618E8003CEA00 /* PBXContainerItemProxy */;
+		};
+		38EDB876227618E8003CEA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EDB852227618E5003CEA00 /* SpotTheScientist */;
+			targetProxy = 38EDB875227618E8003CEA00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38EDB85C227618E5003CEA00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EDB85D227618E5003CEA00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EDB861227618E8003CEA00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EDB862227618E8003CEA00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EDB87B227618E8003CEA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38EDB87C227618E8003CEA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EDB87E227618E8003CEA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = SpotTheScientist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SpotTheScientist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EDB87F227618E8003CEA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = SpotTheScientist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SpotTheScientist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38EDB881227618E8003CEA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = SpotTheScientistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SpotTheScientistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotTheScientist.app/SpotTheScientist";
+			};
+			name = Debug;
+		};
+		38EDB882227618E8003CEA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = SpotTheScientistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SpotTheScientistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotTheScientist.app/SpotTheScientist";
+			};
+			name = Release;
+		};
+		38EDB884227618E8003CEA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = SpotTheScientistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SpotTheScientistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotTheScientist;
+			};
+			name = Debug;
+		};
+		38EDB885227618E8003CEA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = SpotTheScientistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SpotTheScientistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotTheScientist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EDB84E227618E5003CEA00 /* Build configuration list for PBXProject "SpotTheScientist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EDB87B227618E8003CEA00 /* Debug */,
+				38EDB87C227618E8003CEA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EDB87D227618E8003CEA00 /* Build configuration list for PBXNativeTarget "SpotTheScientist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EDB87E227618E8003CEA00 /* Debug */,
+				38EDB87F227618E8003CEA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EDB880227618E8003CEA00 /* Build configuration list for PBXNativeTarget "SpotTheScientistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EDB881227618E8003CEA00 /* Debug */,
+				38EDB882227618E8003CEA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EDB883227618E8003CEA00 /* Build configuration list for PBXNativeTarget "SpotTheScientistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EDB884227618E8003CEA00 /* Debug */,
+				38EDB885227618E8003CEA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EDB84B227618E5003CEA00 /* Project object */;
+}
