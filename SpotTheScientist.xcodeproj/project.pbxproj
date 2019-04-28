@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		38EDB857227618E5003CEA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB856227618E5003CEA00 /* AppDelegate.swift */; };
-		38EDB859227618E5003CEA00 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB858227618E5003CEA00 /* art.scnassets */; };
 		38EDB85B227618E5003CEA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB85A227618E5003CEA00 /* ViewController.swift */; };
 		38EDB85E227618E5003CEA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB85C227618E5003CEA00 /* Main.storyboard */; };
 		38EDB860227618E8003CEA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB85F227618E8003CEA00 /* Assets.xcassets */; };
 		38EDB863227618E8003CEA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB861227618E8003CEA00 /* LaunchScreen.storyboard */; };
 		38EDB86E227618E8003CEA00 /* SpotTheScientistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB86D227618E8003CEA00 /* SpotTheScientistTests.swift */; };
 		38EDB879227618E8003CEA00 /* SpotTheScientistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB878227618E8003CEA00 /* SpotTheScientistUITests.swift */; };
+		38EDB88722761F91003CEA00 /* scientists.json in Resources */ = {isa = PBXBuildFile; fileRef = 38EDB88622761F91003CEA00 /* scientists.json */; };
+		38EDB88922761FA6003CEA00 /* Scientist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB88822761FA6003CEA00 /* Scientist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		38EDB853227618E5003CEA00 /* SpotTheScientist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotTheScientist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EDB856227618E5003CEA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38EDB858227618E5003CEA00 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		38EDB85A227618E5003CEA00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38EDB85D227618E5003CEA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38EDB85F227618E8003CEA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		38EDB874227618E8003CEA00 /* SpotTheScientistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotTheScientistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EDB878227618E8003CEA00 /* SpotTheScientistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTheScientistUITests.swift; sourceTree = "<group>"; };
 		38EDB87A227618E8003CEA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EDB88622761F91003CEA00 /* scientists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scientists.json; sourceTree = "<group>"; };
+		38EDB88822761FA6003CEA00 /* Scientist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scientist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				38EDB856227618E5003CEA00 /* AppDelegate.swift */,
-				38EDB858227618E5003CEA00 /* art.scnassets */,
 				38EDB85A227618E5003CEA00 /* ViewController.swift */,
 				38EDB85C227618E5003CEA00 /* Main.storyboard */,
 				38EDB85F227618E8003CEA00 /* Assets.xcassets */,
 				38EDB861227618E8003CEA00 /* LaunchScreen.storyboard */,
+				38EDB88622761F91003CEA00 /* scientists.json */,
+				38EDB88822761FA6003CEA00 /* Scientist.swift */,
 				38EDB864227618E8003CEA00 /* Info.plist */,
 			);
 			path = SpotTheScientist;
@@ -232,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38EDB859227618E5003CEA00 /* art.scnassets in Resources */,
+				38EDB88722761F91003CEA00 /* scientists.json in Resources */,
 				38EDB863227618E8003CEA00 /* LaunchScreen.storyboard in Resources */,
 				38EDB860227618E8003CEA00 /* Assets.xcassets in Resources */,
 				38EDB85E227618E5003CEA00 /* Main.storyboard in Resources */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EDB85B227618E5003CEA00 /* ViewController.swift in Sources */,
+				38EDB88922761FA6003CEA00 /* Scientist.swift in Sources */,
 				38EDB857227618E5003CEA00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
