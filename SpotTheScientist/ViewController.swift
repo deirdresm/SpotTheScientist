@@ -49,28 +49,29 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 	
 	func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
 		guard let imageAnchor = anchor as? ARImageAnchor else { return nil }
-		
 		guard let name = imageAnchor.referenceImage.name else { return nil }
-		
 		guard let scientist = scientists[name] else { return nil }
-		print(scientist.name)
 		
-		let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height:  imageAnchor.referenceImage.physicalSize.height)
+		let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
 		plane.firstMaterial?.diffuse.contents = UIColor.clear
-		let spacing : Float = 0.005
 		
 		let planeNode = SCNNode(geometry: plane)
-
+		planeNode.eulerAngles.x = -.pi / 2
+		
+		let node = SCNNode()
+		node.addChildNode(planeNode)
+		
+		let spacing : Float = 0.010
+		
 		let titleNode = textNode(scientist.name, font: UIFont.boldSystemFont(ofSize: 10))
 		titleNode.pivotOnTopLeft()
 		
 		titleNode.position.x += Float(plane.width / 2) + spacing
-		titleNode.position.y += Float(plane.height / 2) + spacing
+		titleNode.position.y += Float(plane.height / 2)
 		
 		planeNode.addChildNode(titleNode)
-		planeNode.eulerAngles.x = -.pi / 2
 
-		let bioNode = textNode(scientist.bio, font: UIFont.boldSystemFont(ofSize: 6), maxWidth: 100)
+		let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 6), maxWidth: 70)
 		bioNode.pivotOnTopLeft()
 		
 		bioNode.position.x += Float(plane.width / 2) + spacing
@@ -86,9 +87,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 		
 		flagNode.position.y -= Float(plane.height / 2) + spacing
 		planeNode.addChildNode(flagNode)
-		
-		let node = SCNNode()
-		node.addChildNode(planeNode)
 		
 		return node
 	}
@@ -123,7 +121,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 		}
 		
 		let textNode = SCNNode(geometry: text)
-		textNode.scale = SCNVector3(0.002, 0.002, 0.002)
+		textNode.scale = SCNVector3(0.0015, 0.0015, 0.0015)
 		
 		return textNode
 	}
@@ -145,8 +143,8 @@ extension SCNNode {
 	}
 	
 	func pivotOnTopCenter() {
-		let (min, max) = boundingBox
-		pivot = SCNMatrix4MakeTranslation((max.x - min.x) / 2 + min.x, (max.y - min.y) + min.y, 0)
+		let (_, max) = boundingBox
+		pivot = SCNMatrix4MakeTranslation(0, max.y, 0)
 	}
 
 	
